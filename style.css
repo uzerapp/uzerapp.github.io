@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -8,7 +10,7 @@ ul {
 
 li {
     float: right;
-    font-family:"Lato", sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 li a {
