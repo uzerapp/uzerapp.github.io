@@ -9,6 +9,7 @@ ul {
 
 li {
     float: left;
+    font-family:Tahoma, Geneva, sans-serif;
 }
         
 li a, .dropbtn {
@@ -31,8 +32,31 @@ body {
     background-size: cover;
 }
 
-#home-page .logo a {
-    text-decoration: none;
-    color: black;
+home_logo {
+     display: block;
+     margin-top: 3em;
 }
 
+@font-face {
+    font-family:uzer_custom_font;
+    src:url("font/font.TTF");
+}
+
+logo {
+    
+    list-style-type: none;
+    text-align: center;
+    color: #333;
+    font-family:uzer_custom_font;
+    font-size: 1200%;
+    letter-spacing:0.4px;
+    text-decoration: none;            
+}
+
+nav_bar_logo {
+    font-family:uzer_custom_font;
+}
+
+nav_bar_logo {
+    font-family:uzer_custom_font;
+}
