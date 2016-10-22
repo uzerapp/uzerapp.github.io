@@ -65,7 +65,6 @@ hr {
 	width: 120px;
 	text-align: left;
 }
-
 header {
 	height: 66px;
 	width: 100%;
@@ -80,6 +79,7 @@ header {
 	transition: all 0.5s ease-in-out; 
 	background: black;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+	
 }
 
 #nav-wrap {
@@ -115,16 +115,16 @@ ul#nav li a {
 	transition: color 0.2s ease-in-out;
 }
 
-ul#nav li a:hover {
-	color: #FFFFFF;
-}
-
 .nav_logo {
     float: left;
     font-size: 22px;
     font-family:uzer_custom_font;
     color: white;
     text-decoration: none;
+}
+
+ul#nav li a:hover {
+	color: #FFFFFF;
 }
 
 @media only screen and (max-width:768px) {
