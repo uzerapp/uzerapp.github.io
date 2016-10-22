@@ -33,3 +33,10 @@ Internet access is a human right. Uzer will take cities one step ahead towards t
 
 * Side note project: The app could have another function which would be wireless telecommunication sharing as well. It consists of allowing users who cannot make long-distance calls, countrywide calls or simply local calls to connect with someone who can through our app or (if they don’t have a smartphone: online through our product’s website) and take ONLY control of the built-in calling app of the provider’s smartphone for a specific amount of time in exchange for money for that specific amount of time used. 
 
+------------------------------------------------------------------------------------------------------------------------------
+Please note that the website: 
+- Works on mobile
+- Is a responsive website
+- Contains a Privacy policy / terms of use / copyright
+- Is available on Google search engine. (Just type uzer app and it's the first site that appears.
+
