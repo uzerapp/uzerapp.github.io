@@ -80,7 +80,6 @@ header {
 	transition: all 0.5s ease-in-out; 
 	background: black;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
-	
 }
 
 #nav-wrap {
@@ -88,8 +87,8 @@ header {
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	float: left;  
+    margin-left: 40px;
 }
-
 
 
 ul#nav li {
@@ -103,7 +102,8 @@ ul#nav li a {
 
 	display: block;
 	padding: 14px 20px;
-	line-height: 25px;
+    margin-left: 10px;
+	line-height: 10px;
 	text-decoration: none;
 	text-align: left;
 	color: #04b1e6;
