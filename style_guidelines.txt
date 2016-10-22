@@ -1,0 +1,50 @@
+﻿Overall Look and Feel of Roomie
+===============================
+
+
+The overall look and feel of the website should be bold and professional yet simple and easy to navigate. We are avoiding the use of complicated transitions and animations to keep the website as clean and user-friendly as possible. 
+
+
+Colours
+========
+The three primary colors used on the website are blue, white and black. The use of blue is used to emphasize that we are a technology company, because this is color often associated with technology. The color blue also gives the impression of stability and safety which is is an image that we want to put forward. Black and white are simple colors that are not flashy and go well with blue.
+
+
+White:
+#FFFFFF
+#F5F5F5
+
+
+Blues:
+ #04B1E6
+
+
+Blacks:
+#111417
+#15191d
+
+
+Iconography
+===========
+No icons are used on the website. 
+
+
+Logo and navbar
+==========
+The logo and navbar should be visible from anywhere on the website for easier navigation. 
+
+
+Typography
+==========
+Google fonts: PT+Sans and Raleway. 
+Imported font (for logo): Danube
+
+
+Links
+=====
+Links in the nav bar (Team/Features/Pricing) change color from blue to white when hovered over. 
+
+
+Buttons
+=======
+Buttons in the nav bar change color from blue to white when hovered over. The logo always stays white.
