@@ -83,13 +83,6 @@ header {
 	
 }
 
-.nav_logo {
-    float: left;
-    font-size: 22px;
-    font-family:uzer_custom_font;
-    text-decoration-color: white;
-}
-
 #nav-wrap {
 	font: 13px 'PT Sans', sans-serif;;
 	text-transform: uppercase;
@@ -124,6 +117,14 @@ ul#nav li a {
 
 ul#nav li a:hover {
 	color: #FFFFFF;
+}
+
+.nav_logo {
+    float: left;
+    font-size: 22px;
+    font-family:uzer_custom_font;
+    color: white;
+    text-decoration: none;
 }
 
 @media only screen and (max-width:768px) {
