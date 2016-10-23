@@ -352,3 +352,38 @@ img {
 .bgrid {
 	padding: 0;
 }
+
+.structurize{
+	padding-left:0;
+	margin-left:-5px;
+	list-style:none;
+}
+
+.structurize li {
+	display:inline-block;
+	padding-right:5px;
+	padding-left:5px;
+	color:white;
+}
+	
+#footer_look {
+	background: #0F1215;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	min-height: 30px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	border-bottom: 0px solid #0F1215;
+}
+
+#footer_look h2 {
+	font: 15px/20px "raleway-heavy", sans-serif;
+	color: #ffffff;
+	text-transform:none;
+	letter-spacing: 0;
+	padding: 0;
+	margin-bottom: 6px;
+	position:relative;top:50px;
+}
