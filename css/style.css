@@ -225,14 +225,14 @@ ul#nav li a:hover {
 	margin-bottom: 6px;
 }
 
-#team-wrapper .member-pic {
+#team-wrap .member-pic {
 	position: relative;
 	line-height: 1;
 	overflow: hidden;
 	background: #ffffff;
 }
 
-#team-wrapper .mask {
+#team-wrap .mask {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -244,14 +244,14 @@ ul#nav li a:hover {
 	zoom: 1;
 }
 
-#team-wrapper .member:hover .mask {
+#team-wrap .member:hover .mask {
 	filter: alpha(opacity=100);
 	opacity: 1;
 	zoom: 1;
 }
 
 @media only screen and (max-width:600px) {
-	#team-wrapper .member-pic {
+	#team-wrap .member-pic {
 		width: 80px;
 		height: 80px;
 		float: left;
@@ -260,16 +260,16 @@ ul#nav li a:hover {
 		top: 6px;
 	}
 
-	#team-wrapper .member-pic .mask {
+	#team-wrap .member-pic .mask {
 		display: none;
 	}
 
-	#team-wrapper .member-name + p {
+	#team-wrap .member-name + p {
 		clear: both;
 		margin-top: 32px;
 	}
 
-	#team-wrapper .member p {
+	#team-wrap .member p {
 		font-size: 16px;
 		line-height: 30px;
 	}
