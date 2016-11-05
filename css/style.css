@@ -266,7 +266,7 @@ ul#nav li a:hover {
 #cool_image {
 	background: url(../images/personsmartphone.jpg);
 	background-size: cover;
-	min-height: 700px;
+	min-height: 100%;
 	width: 100%;
 	text-align: left;
 	position: relative;
