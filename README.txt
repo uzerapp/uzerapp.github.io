@@ -38,5 +38,4 @@ Please note that the website:
 - Works on mobile
 - Is a responsive website
 - Contains a Privacy policy / terms of use / copyright
-- Is available on Google search engine. (Just type uzer app and it's the first site that appears)
 
