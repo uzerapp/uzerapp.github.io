@@ -357,3 +357,31 @@ img {
 	margin-bottom: 6px;
 	position:relative;top:50px;
 }
+
+#cool_image_2 #moreone {
+	position: absolute;
+    left: 0%;
+	bottom: -77px;
+	top: 550px;
+	padding: 50;
+}
+
+#cool_image_2 #moreone a {
+	font: 12px/54px 'Raleway', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	display: block;
+	height: 54px;
+	width: 200px;
+	border-radius: 3px;
+	background: #000000;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	color: #ffffff;
+}
+
+#cool_image_2 #moreone a:hover {
+	background: #04b1e6;
+	color: #ffffff;
+}
