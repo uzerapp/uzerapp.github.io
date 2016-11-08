@@ -248,6 +248,26 @@ ul#nav li a:hover {
 	position:relative;top:50px;
 }
 
+
+#cool_image_2 {
+	background: url(../images/otherpic.jpg);
+	background-size: cover;
+	min-height: 100%;
+	width: 100%;
+	position: relative;
+	border-bottom: 0px;
+}
+
+#cool_image_2 h2 {
+	font: 30px/36px "raleway-heavy", sans-serif;
+	color: #ffffff;
+	text-transform:none;
+	letter-spacing: 0;
+	padding: 0;
+	margin-bottom: 6px;
+	position:relative;top:50px;
+}
+
 body {
 	margin: 0;
 }
@@ -337,4 +357,3 @@ img {
 	margin-bottom: 6px;
 	position:relative;top:50px;
 }
-
