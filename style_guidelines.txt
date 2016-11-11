@@ -26,7 +26,7 @@ Blacks:
 
 Iconography
 ===========
--The hamburger icon is going to be used on the mobile platform of the website, not on the desktop icon. 
+-The hamburger icon is going to be used on the mobile platform of the website, not on the desktop platform. 
 -The trigram for heaven (U+2630) with an HTML Entity (Decimal) of &#9776 and HTML Entity (Hexadecimal) of &#x2630 will be used for the mobile platform.
 -The box drawings light diagonal cross (U+2573) will be used as well to change from hamburger to an x-shaped cross.
 
