@@ -14,7 +14,7 @@
 html,
 
 body {
-	font: 16px/31px "raleway-heavy", serif;
+	font: 16px/31px "clanpro";
 	font-weight: normal;
 	color: black;
     width: 100%;
@@ -234,9 +234,9 @@ ul#nav li a:hover {
 }
 
 * {box-sizing:border-box}
-.mySlides {display:none}
+.mySlides {display:none; margin-top: 100px;}
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 2000px;
   position: relative;
   margin: auto;
 }
