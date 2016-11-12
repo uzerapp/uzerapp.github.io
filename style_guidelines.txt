@@ -7,7 +7,7 @@ The overall look and feel of the website should be bold and professional yet sim
 
 Colours
 ========
-The three primary colors used on the website are blue, white and black. The use of blue is used to emphasize that we are a technology company, because this is color often associated with technology. The color blue also gives the impression of stability and safety which is is an image that we want to put forward. Black and white are simple colors that are not flashy and go well with blue.
+The three primary colors used on the website are blue, white and black. The use of blue is used to emphasize that we are a technology company, because this is color often associated with technology. The color blue also gives the impression of stability and safety which is an image that we want to put forward. Black and white are simple colors that are not flashy and go well with blue.
 
 
 White:
@@ -39,7 +39,7 @@ The logo and navbar should be visible from anywhere on the website for easier na
 Typography
 ==========
 Google fonts: PT+Sans and Raleway. 
-Imported font (for logo): Danube
+Imported font: Danube(for logo), clanpro(text)
 
 
 Links

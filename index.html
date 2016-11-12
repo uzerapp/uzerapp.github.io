@@ -2,7 +2,7 @@
 <head>
 
 	<title> Uzer App </title>
-	<meta name="description" content="Uzer-Inc introduces the all-new Uzer App, a Wifi and Telecommunications sharing application that works by giving the opportunity to normal people like you to earn extra income by sharing your Wifi network or your phone provider's network for a certain amount of time which is regulated by you on the other user.">  
+	<meta name="description" content="Uzer-Inc introduces the all-new Uzer App, a Wi-Fi and Telecommunications sharing application that works by giving the opportunity to normal people like you to earn extra income by sharing your Wi-Fi network or your phone provider's network in return for money">  
 
    <link rel="stylesheet" href="css/style.css"> 
 
@@ -54,7 +54,7 @@
 
 	         <hr/>     	    
 
-	        <h2>Unlimited Connection. Greatest Satisfaction.</h2>
+	        <h2>Unlimited Data. Any time. Anywhere.</h2>
 
 	      </div> 
 
@@ -64,47 +64,81 @@
 
       	<div class="bgrid-fourth">
 
-      		<div class="bgrid">
+      		<div class="table_features">
 
 			    <h3>Overview</h3>	
 
-			    <p>Uzer allows homeowners, renters, landlords and regular people to share their wireless/data network and provide Internet access to numerous paying customers. It's basically wireless made accessible by everyone to everyone. </p>
+			    <p>Uzer allows homeowners, tenents, landlords and businesses to share their wireless/data network and sell Internet access to the public. Uzer is wireless made accessible by everyone for everyone.</p>
 
 		   	</div>
 
-      		<div class="bgrid">
+      		
+			
+      		<div class="table_features">
 
-			    <h3>Unlocked features</h3>
+			    <h3>Uzers</h3>	
 
-			    <p>Through Uzer, the owner of the router will share their wireless network connection in return for money. The owner can set up parameters for the user in order to ensure safety, such as the length of use and the amount of data allowed for use. </p>	
+			    <p>Uzer provides unlimited Wi-Fi for a fixed cheap rate. People who travel abroad will no longer have to pay ridiculously expensive roaming fees to use Internet. Light internet users will no longer have to pay for monthly internet. And students can use UZER instead of LTE Data and save on their monthly phone bills.</p>
+		   	</div>
+            
+            <div class="table_features">
+
+			    <h3>Uzer providers</h3>
+
+			    <p>Inernet access at home can be expensive. Uzer can help with that! You are already paying for internet so why not get compensatd for sharing it. Uzer can help you cut back on your monthly Internet bills and potentially profit every month.</p>	
 			
 			</div>
-			
-      		<div class="bgrid">
 
-			    <h3>Benefits</h3>	
-
-			    <p>With Uzer, people who travel abroad <br> will no longer have to pay ridiculously expensive roaming fees to use Internet. Owners can cut back on their monthly wireless &amp; data costs by putting the money earned through Uzer towards their Internet bills and potentially generating extra income for them.</p>
-
-		   	</div>
-
-      		<div class="bgrid">
-
-			    <h3>Ratings system</h3>	
-
-			    <p>Our rating system allows the owners to get the best possible feedbacks about their Internet usage and state while making sure to indicate to users which providers offer the strongest and fastest possible connection allowing the app users to feel more at ease and safer towards the usage of the Uzer app.</p>
-
-		   	</div>
       	 </div> 
       </div> 
      	
-   </section>
-   
-   <section id="cool_image">
-   	      <div class="row">       	
-   	    	<h2>Get ready to engage the world.</h2>
-   	      </div>	
-   </section>
+<!--- Amar -->   
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/business.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/grandpa.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/small_business.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+    
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+        slideIndex++;
+        if (slideIndex> slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+    
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 7000); // Change image every 2 seconds
+    }
+    </script>
+
     
    
    <section id="Pricing">
@@ -117,7 +151,7 @@
 
 	        <hr/>     	    
 
-	        <h2>Make the smartest financial move!</h2>
+	        <h2>Choose the right option for you.</h2>
 
 	      </div> 
 
@@ -125,22 +159,23 @@
 
       <div class="row">       	
 
-      	<div class="bgrid-half">
+      	<div class="bgrid-half" style="margin-left=10px">
 
       		<div class="bgrid">
 
-			    <h3>Uzer Plan.</h3>	
+			    <h3>Pay per minute</h3>	
 
-			    <p>It's totally free when the Internet speed is less than 40 Mpbs! It can't get over 10$/month if you use unlimited Internet speed at over 40 Mpbs! It's simply the best financial decision you can ever make in your lifetime. Hands-down.</p>
+			    <p>Uzer offers two payment options for using Wi-Fi. The pay per minute model offers unlimited Wi-Fi within the purched time. This option is good for professionals who spend lengthy amounts of time on the internet downloading and viewing files. 
+                </p>
 			    <img src="images/uzerpricing.png">
 
 		   	</div>
 
       		<div class="bgrid">
 
-			    <h3>Providers' typical plan.</h3>
+			    <h3>Pay per megabyte</h3>
 
-			    <p>Typical network providers normally overcharge people for faster network speed (Mpbs) and those expensive roaming fees can get over 140$ a month. It's over 15% more than what we would make you pay for Unlimited Wifi speed > 40 Mpbs</p>	
+			    <p>The pay per megabyte is for casual Internet browsers that would like to pay only for the internet they use up. Uzer employs algorithms that determine exact rates per megabyte depending on speed and quality of the connections.</p>	
 			    <img src="images/typicalpricing.png">
 
 		    </div> 
@@ -178,10 +213,10 @@
                  	</div>
                <div class="member-name">
                   <h3>Taha Khaldi <a href="https://ca.linkedin.com/in/tahakhaldi" target="_blank"><img src="images/linkedin-logo-png-2026-2.png" alt="LinkedIn" /></a></h3>
-                  <span>Lead Web Developer</span>
+                  <span>Lead Application Developer</span>
                </div>
 
-               <p>Taha specializes on front end development of websites through languages like HTML, CSS &amp; Javascript. He also works with Python for app development. Website structure, security and navigation is his expertise. </p>
+               <p>Taha specializes in development of websites and applications. Taha is adept at making roboust applications with Python and Java. Taha developes new features and innovations for the Uzer app. </p>
 
             </div> 
 
@@ -192,10 +227,10 @@
 					</div>					
                <div class="member-name">
                   <h3>Amar Jasarbasic <a href="https://ca.linkedin.com/in/amarjasarbasic" target="_blank"><img src="images/linkedin-logo-png-2026-2.png" alt="LinkedIn" /></a></h3>
-                  <span>Lead Web Designer</span>
+                  <span>Lead Business Strategist</span>
                </div>
 
-               <p>Amar is the lead designer. He literally decides over the implementation of how websites should look and work. His skills <br>  are design-tools-of-choice, HTML, CSS <br> &amp; PHP.</p>
+               <p>Amar determines the potential growth areas, direction and scope of Uzer. He determines potential pricing and business models. Amar also focuses on back end developement and is proficent in Python, PHP and Java.</p>
 
             </div>
 
@@ -209,7 +244,7 @@
                   <span>Lead UI Designer</span>
                </div>
 
-               <p>Valentin's proficient at design-tools-of-choice with some strength really focused <br> on HTML and CSS. He masters the art of visual design and analysis.</p>
+               <p>Valentin is proficient in design and uses HTML, CSS and Javascript to build powerful dynamic wesbsites. Valentin oversees all changes and adjustments made to the Uzer website and web applications.</p>
 
      		</div> 
 
@@ -220,11 +255,10 @@
                  	</div>
                <div class="member-name">
                   <h3>Mariam Bachir <a href="https://ca.linkedin.com/in/mariam-bachir-daher-017961129" target="_blank"><img src="images/linkedin-logo-png-2026-2.png" alt="LinkedIn" /></a></h3>
-                  <span>Lead Content Strategist</span>
+                  <span>Information Officer</span>
                </div>
 
-               <p>Rather than working directly on implementation, Mariam looks into the structural design of websites. Things like the taxonomies, metadata and scheduling are her strength. She's the Information Architect. </p>
-
+               <p>Rather than working directly on implementation, Mariam looks into the structural design of websites. Things like the taxonomies, metadata and scheduling are her strength.</p>
      		</div> 
 
          </div> 
