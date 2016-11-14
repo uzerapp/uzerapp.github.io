@@ -8,7 +8,7 @@ Through Uzer, the owner of the router will share their wireless network connecti
 
 This provides the owners with an opportunity to cut back on their monthly wireless/data costs by putting the money earned through Uzer towards their Internet bills. Router owners looking for extra income can earn money easier than ever before.
 
-It's a win-win situation for both app users (users & providers). One who will get Wifi access all across the world for subtantially lower prices than paying for data, and another will earn extra income for providing Wifi to others. Uzer will also encourage more router owners to switch to high speed and unlimited Internet/data in order to keep up with the demand of users, which will in turn increase sales for telecommunication and wireless company providers. 
+It's a win-win situation for both app users (Wifi users & providers). One will have access to a global Wifi network for a subtantially lower price, and another will earn extra income for providing Wifi to others. Uzer will also encourage more router owners to switch to high speed or unlimited Internet/data in order to keep up with the demand of users, which will in turn increase sales for telecommunication and wireless company providers. 
 
 Additional features such as a cutting-edge rating system will be implemented in order to give the best possible feedback to owners about their Internet usage and state, and also indicate to users which providers offer the strongest and fastest possible connection. 
 
@@ -18,7 +18,7 @@ Internet access is a human right. Uzer will take cities one step ahead towards t
 
 # Code
 
-This project has three branches, two of which use Javascript in addition to HTML5 and CSS3. The three branches are: Master, Hamburger and Fullpage. 
+This project has three branches with all of them using Javascript and JQuery Plugins in addition to HTML5 and CSS3. The three branches are: Master, Hamburger and Fullpage. 
 
 # Terms & Conditions of Use
 
