@@ -2,16 +2,79 @@
 <head>
 
 	<title> Uzer App </title>
-	<meta name="description" content="Uzer-Inc introduces the all-new Uzer App, a Wi-Fi and Telecommunications sharing application that works by giving the opportunity to normal people like you to earn extra income by sharing your Wi-Fi network or your phone provider's network in return for money">  
+	<meta name="description" content="Uzer-Inc introduces the all-new Uzer App, a Wifi and Telecommunications sharing application that works by giving the opportunity to normal people like you to earn extra income by sharing your Wifi network or your phone provider's network for a certain amount of time which is regulated by you on the other user.">  
 
-   <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
 
-   <link rel="shortcut icon" href="images/favicon.ico" />
- 
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <script type="text/javascript" src="js/jquery1.js"></script>
+    <script type="text/javascript" src="js/jquery2.js"></script>
+    <script type="text/javascript" src="js/jquery3.js"></script>
+    <script>
+    $(function(){
+
+        $("#typed").typed({
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html',
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ }
+
+    function foo(){ console.log("Callback"); }
+
+    </script>
+    <style>
+        .typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+    </style> 
 </head>
 
 <body>
-
+    
    <header>
 
    	<div class="row">
@@ -34,15 +97,32 @@
    <section id="home">	
    	  
        <div id="content">
-           <h1 class="">A global network at your fingertips.</h1>
-           <h3 class="">Crowdsourcing the World's Wi-Fi.</h3>
-           <div id="more">
-               <a href="#Features">Discover the app</a>  
+           <div class="wrap">
+               <div class="type-wrap">
+               	<br>
+               	<br>
+                   <div id="typed-strings">
+                       <span>Envision a <strong>global</strong> Network at your fingertips.</span><
+                       <p>Imagine <em>crowdsourcing</em> the World's Wifi.</p>
+                       <p>This is our vision.</p>
+                       <p>This is  . . .  Uzer.</p>
+                   </div>
+                   <span id="typed" style="white-space:pre;">
+               	
+                   </span>
+               </div>
+           </div>
+           <p>
+           	
+           </p>
+           <div id="more" class="demo">
+               <a href="#Features"><span>
+               	
+               </span></a>  
            </div>
        </div>	     
 
-   </section>  
-
+   </section> 
 
    <section id="Features">
 
@@ -54,7 +134,7 @@
 
 	         <hr/>     	    
 
-	        <h2>Unlimited Data. Any time. Anywhere.</h2>
+	        <h2>Unlimited Data. Anytime. Anywhere.</h2>
 
 	      </div> 
 
@@ -62,84 +142,144 @@
 
       <div class="row">       	
 
-      	<div class="bgrid-fourth">
+      	<div class="bgrid-third">
 
-      		<div class="table_features">
+      		<div class="bgrid">
 
 			    <h3>Overview</h3>	
 
-			    <p>Uzer allows homeowners, tenents, landlords and businesses to share their wireless/data network and sell Internet access to the public. Uzer is wireless made accessible by everyone for everyone.</p>
+			    <p>Uzer allows homeowners, tenents, landlords and businesses to share their wireless/data network and sell Internet access to the public. It comes with two versions: a stationary mode for people at rest and a mobile mode for those using a vehicule. Uzer is wireless made accessible by everyone for everyone. </p>
 
 		   	</div>
 
-      		
-			
-      		<div class="table_features">
+      		<div class="bgrid">
 
-			    <h3>Uzers</h3>	
+			    <h3>Users</h3>
 
-			    <p>Uzer provides unlimited Wi-Fi for a cheap rate. People who travel abroad will no longer have to pay ridiculously expensive roaming fees to use Internet. Light internet users will no longer have to pay for monthly internet. And students can use UZER instead of LTE Data and save on their monthly phone bills.</p>
-		   	</div>
-            
-            <div class="table_features">
-
-			    <h3>Uzer providers</h3>
-
-			    <p>Inernet access at home can be expensive. Uzer can help with that! You are already paying for internet so why not get compensatd for sharing it. Uzer can help you cut back on your monthly Internet bills and potentially profit every month.</p>	
+			    <p>Uzer provides unlimited Wi-Fi for a cheap rate. People who travel abroad will no longer have to pay ridiculously expensive roaming fees to use Internet. Light Internet users will no longer have to pay for monthly Internet. And students can use Uzer instead of LTE Data and save on their monthly phone bills. </p>	
 			
 			</div>
+			
+      		<div class="bgrid">
 
+			    <h3>Providers</h3>	
+
+			    <p>Internet access at home can be expensive. Uzer can help with that! You are already paying for Internet so why not get compensated for sharing it. Uzer can help you cut back on your monthly Internet bills and potentially generate extra monthly income for the service you're offering to others.</p>
+
+		   	</div>
       	 </div> 
       </div> 
      	
-<!--- Amar -->   
-<div class="slideshow-container">
+   </section>
+   
+        
+        <div class="container demo-2">
 
-<div class="mySlides fade">
-  <img src="images/business.jpg" style="width:100%">
-</div>
+            <div id="slider" class="sl-slider-wrapper">
 
-<div class="mySlides fade">
-  <img src="images/grandpa.png" style="width:100%">
-</div>
+				<div class="sl-slider">
+				
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-1"></div>s
+							<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unlimited Connection.</h2>
+							<br>
+							<blockquote><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uzer keeps Ryan connected on the go.</p></blockquote>
+						</div>
+					</div>
+					
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-2"></div>
+							<h2>Making Internet Accessible.</h2>
+							<br>
+							<blockquote><p>Grandpa Jimmy doesn't want to pay for expensive Internet plans. He'd rather use Uzer.</p></blockquote>
+						</div>
+					</div>
+					
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-3"></div>
+							<h2>Generating extra-income.</h2>
+							<br>
+							<blockquote><p>Alex can rest with a peace of mind knowing he's making money through Uzer.</p></blockquote>
+						</div>
+					</div>
+					
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-4"></div>
+							<h2>Exploring the World.</h2>
+							<br>
+							<blockquote><p>With Uzer, Mike doesn't need to pay expensive roaming fees when travelling abroad.</p></blockquote>
+						</div>
+					</div>
+				</div>
 
-<div class="mySlides fade">
-  <img src="images/small_business.jpg" style="width:100%">
-</div>
+				<nav id="nav-dots" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</nav>
 
-</div>
-<br>
+			</div>
 
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-    
-    <script>
-        var slideIndex = 0;
-        showSlides();
+        </div>
+		<script type="text/javascript" src="js/jquery4.js"></script>
+		<script type="text/javascript" src="js/jquery5.js"></script>
+		<script type="text/javascript">	
+			$(function() {
+			
+				var Page = (function() {
 
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-        slideIndex++;
-        if (slideIndex> slides.length) {slideIndex = 1}
-        for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-        }
-    
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 7000); // Change image every 2 seconds
-    }
-    </script>
+					var $nav = $( '#nav-dots > span' ),
+						slitslider = $( '#slider' ).slitslider( {
+							onBeforeChange : function( slide, pos ) {
 
-    
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+							}
+						} ),
+
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							$nav.each( function( i ) {
+							
+								$( this ).on( 'click', function( event ) {
+									
+									var $dot = $( this );
+									
+									if( !slitslider.isActive() ) {
+
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									
+									}
+									
+									slitslider.jump( i + 1 );
+									return false;
+								
+								} );
+								
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+			
+			});
+		</script>
    
    <section id="Pricing">
 
@@ -159,27 +299,28 @@
 
       <div class="row">       	
 
-      	<div class="bgrid-half" style="margin-left=10px">
+      	<div class="bgrid-half">
 
       		<div class="bgrid">
 
-			    <h3>Pay per minute</h3>	
+			    <h3>Pay per minute.</h3>	
 
-			    <p>Uzer offers two payment options for using Wi-Fi. The pay per minute model offers unlimited Wi-Fi within the purched time. This option is good for professionals who spend lengthy amounts of time on the internet downloading and viewing files. 
-                </p>
+			    <p>Uzer offers two payment options for using Wi-Fi. The pay per minute model offers unlimited Wi-Fi within the purchased time. This option is good for professionals who spend lengthy amounts of time on the Internet downloading, writing and viewing files.
 			    <img src="images/uzerpricing.png">
 
 		   	</div>
 
       		<div class="bgrid">
 
-			    <h3>Pay per megabyte</h3>
+			    <h3>Pay per megabyte.</h3>
 
-			    <p>The pay per megabyte is for casual Internet browsers that would like to pay only for the internet they use up. Uzer employs algorithms that determine exact rates per megabyte depending on speed and quality of the connections.</p>	
+			    <p>The pay per megabyte is for casual Internet users and consumers that would like to pay only for the Internet they use. Uzer employs algorithms that determine exact rates per megabyte depending on speed and quality of the connections.<br><br>	
 			    <img src="images/typicalpricing.png">
 
 		    </div> 
+		    
       	 </div> 
+      	 
       </div> 
      	
    </section>
@@ -213,10 +354,10 @@
                  	</div>
                <div class="member-name">
                   <h3>Taha Khaldi <a href="https://ca.linkedin.com/in/tahakhaldi" target="_blank"><img src="images/linkedin-logo-png-2026-2.png" alt="LinkedIn" /></a></h3>
-                  <span>Lead Application Developer</span>
+                  <b><span>Lead Software Developer</span></b>
                </div>
 
-               <p>Taha specializes in development of websites and applications. Taha is adept at making roboust applications with Python and Java. Taha developes new features and innovations for the Uzer app. </p>
+               <p>Taha specializes in front end development of websites and applications. Taha is adept at making robust applications with Python &amp; Java. Taha developes new features and software updates for the Uzer mobile and web application.</p>
 
             </div> 
 
@@ -227,10 +368,10 @@
 					</div>					
                <div class="member-name">
                   <h3>Amar Jasarbasic <a href="https://ca.linkedin.com/in/amarjasarbasic" target="_blank"><img src="images/linkedin-logo-png-2026-2.png" alt="LinkedIn" /></a></h3>
-                  <span>Lead Business Strategist</span>
+                  <b><span>Lead Business Strategist</span></b>
                </div>
 
-               <p>Amar determines the potential growth areas, direction and scope of Uzer. He determines potential pricing and business models. Amar also focuses on back end developement and is proficent in Python, PHP and Java.</p>
+               <p>Amar determines the potential growth areas, directions and scope of Uzer. He makes decisions in potential pricing and business models for the app. Amar also work with back end developement and is proficent in Python, PHP and Java.</p>
 
             </div>
 
@@ -241,10 +382,10 @@
                  	</div>                 	
                <div class="member-name">
                   <h3>Valentin Magot <a href="https://ca.linkedin.com/in/valentin-magot-146506128" target="_blank"><img src="images/linkedin-logo-png-2026-2.png" alt="LinkedIn" /></a></h3>
-                  <span>Lead UI Designer</span>
+                  <b><span>Lead UI Designer</span></b>
                </div>
 
-               <p>Valentin is proficient in design and uses HTML, CSS and Javascript to build powerful dynamic wesbsites. Valentin oversees all changes and adjustments made to the Uzer website and web applications.</p>
+               <p>Valentin is adept at user interaction design and uses HTML, CSS and Javascript to build powerful dynamic and visually appealing websites. He oversees all design changes and adjustments made to the Uzer website and web applications.</p>
 
      		</div> 
 
@@ -255,10 +396,11 @@
                  	</div>
                <div class="member-name">
                   <h3>Mariam Bachir <a href="https://ca.linkedin.com/in/mariam-bachir-daher-017961129" target="_blank"><img src="images/linkedin-logo-png-2026-2.png" alt="LinkedIn" /></a></h3>
-                  <span>Information Officer</span>
+                  <b><span>Information Officer</span></b>
                </div>
 
-               <p>Rather than working directly on implementation, Mariam looks into the structural design of websites. Things like the taxonomies, metadata and scheduling are her strength.</p>
+               <p>Rather than working directly on implementation, Mariam looks into the structural design of websites. Things like the taxonomies, metadata and scheduling are her strength. She's the Information Architect. </p>
+
      		</div> 
 
          </div> 
@@ -270,9 +412,8 @@
    <section id="footer_look">
       <div class="row">
            <h2>&copy; 2016 Uzer Technologies Inc. All Rights Reserved.</h2>
-           <br>
            <ul class="structurize">
-               <a href="privacytermsofuse.html"><li>Privacy Policy | Terms & Conditions</li></a>
+               <a href="privacytermsofuse.html"><li>Privacy Policy | Terms &amp; Conditions</li></a>
            </ul>
       </div>
 	   
