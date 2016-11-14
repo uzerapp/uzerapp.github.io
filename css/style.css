@@ -138,11 +138,11 @@ ul#nav li a:hover {
 #home {
 	background: url(../images/background.png) no-repeat center;
 	min-height: 505px;
-    width: 100%;
-    margin-top: 66px;
+	width: 100%;
+	margin-top: 66px;
 	position: relative;
 	border-bottom: px solid #ffffff;
-    font-family:'Raleway', sans-serif;
+	font-family:'Raleway', sans-serif;
 }
 
 #home #content{
