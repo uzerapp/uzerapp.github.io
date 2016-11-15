@@ -427,7 +427,7 @@ img {
 	position: absolute;
 	left: 0%;
 	bottom: -77px;
-	top: 550px;
+	top: 500px;
 	padding: 50;
 }
 
@@ -438,7 +438,7 @@ img {
 	letter-spacing: 2px;
 	text-decoration: none;
 	display: block;
-	height: 100px;
+	height: 40px;
 	width: 200px;
 	border-radius: 3px;
 	background: #000000;
