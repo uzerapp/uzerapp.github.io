@@ -49,7 +49,7 @@
 		translateFactor : 230,
 		maxAngle : 25,
 		maxScale : 2,
-		autoplay : false,
+		autoplay : true,
 		keyboard : true,
 		interval : 4000,
 		onBeforeChange : function( slide, idx ) { return false; },
