@@ -425,9 +425,9 @@ img {
 
 #cool_image_2 #moreone {
 	position: absolute;
-    left: 0%;
+	left: 0%;
 	bottom: -77px;
-	top: 500px;
+	top: 550px;
 	padding: 50;
 }
 
@@ -438,7 +438,7 @@ img {
 	letter-spacing: 2px;
 	text-decoration: none;
 	display: block;
-	height: 30px;
+	height: 100px;
 	width: 200px;
 	border-radius: 3px;
 	background: #000000;
