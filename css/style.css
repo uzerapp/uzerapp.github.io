@@ -599,16 +599,6 @@ img {
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
 }
 
-.demo-2 .sl-slider blockquote cite {
-	font-size: 16px;
-	font-weight: 700;
-	font-style: normal;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	padding-top: 30px;
-	display: inline-block;
-}
-
 .demo-2 .bg-img {
 	padding: 200px;
 	-webkit-box-sizing: content-box;
