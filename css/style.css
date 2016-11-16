@@ -8,10 +8,9 @@
 
 body {
     font: 16px/31px "raleway-heavy", serif;
-    font-family: 'Lato',sans-serif, serif;
-    font-weight: 300, normal;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 15px;
-    color: #333, black;
+    color: black;
     width : 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
