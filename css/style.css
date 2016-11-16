@@ -4,21 +4,14 @@
 @font-face {
     font-family:uzer_custom_font;
     src:url("../font/font_bold.TTF");
-}
+} 
 
 body {
-	font: 16px/31px "raleway-heavy", serif;
-	font-weight: normal;
-	color: black;
-	width: 100%;
-}
- 
-
-body {
-    font-family: 'Lato',sans-serif;
-    font-weight: 300;
+    font-family: 'Lato',sans-serif, serif;
+    font-weight: 300, normal;
     font-size: 15px;
-    color: #333;
+    color: #333, black;
+    width : 100%;
     -webkit-font-smoothing: antialiased;
 }
 
