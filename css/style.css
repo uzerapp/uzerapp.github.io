@@ -7,6 +7,7 @@
 } 
 
 body {
+    font: 16px/31px "raleway-heavy", serif;
     font-family: 'Lato',sans-serif, serif;
     font-weight: 300, normal;
     font-size: 15px;
