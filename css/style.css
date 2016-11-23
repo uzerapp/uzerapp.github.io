@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: black;
 	font-style: normal;
 	margin: 18px 0 15px;
@@ -235,7 +235,7 @@ ul#nav li a:hover {
 
 #Features {
 	background: white;
-	padding-top: 120px;
+	padding-top: 60px;
 	padding-bottom: 120px;
 	border-bottom: 1px solid white;
 }
@@ -381,6 +381,13 @@ img {
 	max-height: 500px;
 	width: 49.5%;
 	padding : 30;
+}
+
+.bgrid-fourfifth .bgrid {
+	max-height: 500px;
+	width: 90%;
+	padding : 30;
+	text-align:center;
 }
 
 .structurize{
@@ -826,4 +833,22 @@ img {
 @keyframes fadeOut{
 	0% {opacity: 1;}
 	100% {opacity: 0;}
+}
+
+.pull-left{float:left!important}
+
+a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+
+.news-container {
+  padding: 60px 10px 20px;
+  border-bottom: 1px dotted #d9d9d9;
+}
+
+.news-img {
+  padding-right: 30px;
 }
