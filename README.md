@@ -18,7 +18,7 @@ Internet access is a human right. Uzer will take cities one step ahead towards t
 
 # Code
 
-This project has two branches with all of them using Javascript (JQuery Plugins) in addition to HTML5 and CSS3. The three branches are: Master and Fullpage. 
+This project has two branches with all of them using Javascript (JQuery Plugins) in addition to HTML5 and CSS3. The two branches are: Master and Fullpage. 
 
 # Terms & Conditions of Use
 
