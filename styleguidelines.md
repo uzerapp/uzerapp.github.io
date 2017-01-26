@@ -9,17 +9,17 @@ The three primary colors used on the website are blue, white and black. The use 
 
 
 -White:
-#FFFFFF
-#F5F5F5
+FFFFFF
+F5F5F5
 
 
 -Blues:
- #04B1E6
+04B1E6
 
 
 -Blacks:
-#111417
-#15191d
+111417
+15191d
 
 
 Iconography
