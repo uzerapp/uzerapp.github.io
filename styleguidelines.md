@@ -1,25 +1,23 @@
 Overall Look and Feel of Uzer
 ===============================
 
-
 The overall look and feel of the website should be bold and professional yet simple and easy to navigate. We are avoiding the use of complicated transitions and animations to keep the website as clean and user-friendly as possible. 
-
 
 Colours
 ========
 The three primary colors used on the website are blue, white and black. The use of blue is used to emphasize that we are a technology company, because this is color often associated with technology. The color blue also gives the impression of stability and safety which is an image that we want to put forward. Black and white are simple colors that are not flashy and go well with blue.
 
 
-White:
+-White:
 #FFFFFF
 #F5F5F5
 
 
-Blues:
+-Blues:
  #04B1E6
 
 
-Blacks:
+-Blacks:
 #111417
 #15191d
 
