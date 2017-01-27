@@ -1,4 +1,4 @@
-# uzerapp.github.io
+# uzer.ca
 
 # Synopsis
 
