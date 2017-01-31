@@ -83,18 +83,16 @@ $(function () {
         // Submit the form using AJAX.
         $.ajax({
                 type: 'POST',
-                url: $(form).attr('action'),
+                url: "https://formspree.io/amarjasarbasic@gmail.com",
                 data: formData
             })
             .done(function (response) {
-                // Make sure that the formMessages div has the 'success' class.
                 $(formMessages).removeClass('error');
                 $(formMessages).addClass('success');
                 setTimeout(function () {
                     $(formMessages).addClass("fade-outy");
                 }, 5000);
-
-                // Set the message text.
+            
                 $(formMessages).text('Perfect. We will get back to you as soon as possible');
 
                 // Clear the form.
@@ -102,14 +100,12 @@ $(function () {
                 $("#btn-newsletter").removeClass("btn-loading");
             })
             .fail(function (data) {
-                // Make sure that the formMessages div has the 'error' class.
                 $(formMessages).removeClass('success');
                 $(formMessages).addClass('error');
                 setTimeout(function () {
                     $(formMessages).addClass("fade-outy");
                 }, 5000);
 
-                // Set the message text.
                 if (data.responseText !== '') {
                     $(formMessages).text(data.responseText);
                 } else {
