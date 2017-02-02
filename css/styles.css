@@ -3351,27 +3351,31 @@ body {
   padding-bottom: 44px;
 }
 .client-testimonials-bg {
+  background-image: url("../img/backgrounds/testimonials-background.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #ffffff;
 }
 .retina-support .client-testimonials-bg {
 }
 @media only screen and (min-device-width: 320px) {
   .retina-support .client-testimonials-bg {
+  background-image: url("../img/backgrounds/testimonials-background.jpg");
   }
 }
 @media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2.4), (min--moz-device-pixel-ratio: 2.4), (-webkit-min-device-pixel-ratio: 2.4), (min-resolution: 2.4dppx) {
   .retina-support .client-testimonials-bg {
+  background-image: url("../img/backgrounds/testimonials-background.jpg");
   }
 }
 @media only screen and (min-device-width: 1200px) {
   .retina-support .client-testimonials-bg {
+  background-image: url("../img/backgrounds/testimonials-background.jpg");
   }
 }
 @media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
   .retina-support .client-testimonials-bg {
+  background-image: url("../img/backgrounds/testimonials-background.jpg");
   }
 }
 .testimonials .animated {
