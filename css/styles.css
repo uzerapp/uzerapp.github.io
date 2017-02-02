@@ -1,4 +1,4 @@
-/*  
+/*
     =====================
     Base styles
     --------------
@@ -13,14 +13,14 @@
     |__ Home Section Texts
     Typography
     Atmosphere
-    Hacks 
+    Hacks
 */
 /*
   ========================================
   Genaral styles
   ========================================
 */
-/* 
+/*
  Body text
  -------------------------
  */
@@ -43,7 +43,7 @@ body ::selection {
 p {
   margin: 0 0 21px;
 }
-/* 
+/*
  Links
  -------------------------
  */
@@ -73,9 +73,9 @@ ul,
 ol {
   margin: 0 0 1.5em 0;
 }
-/* 
+/*
  Headings
-------------------------- 
+-------------------------
 */
 h1,
 h2,
@@ -178,7 +178,7 @@ hr {
 .text-uppercase      { text-transform: uppercase; }
 .text-capitalize     { text-transform: capitalize; }
 */
-/*  
+/*
     ======================
     Modules styles
     --------------
@@ -633,7 +633,7 @@ hr {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
 }
-/* 
+/*
  Ripple Effect
  -------------------------
  */
@@ -686,7 +686,7 @@ hr {
   -webkit-animation: ripple 0.5s ease-out;
           animation: ripple 0.5s ease-out;
 }
-/* 
+/*
  Animated Navicon
  -------------------------
  */
@@ -717,7 +717,7 @@ hr {
   -webkit-transition: top 0.14s ease-in, -webkit-transform 0.22s ease-in-out 0.14s;
           transition: top 0.14s ease-in, transform 0.22s ease-in-out 0.14s;
 }
-/* 
+/*
  Loaders
  -------------------------
  */
@@ -873,7 +873,7 @@ hr {
   font-family: 'Lato', sans-serif;
   text-transform: capitalize;
 }
-/* 
+/*
  Home Section Texts
  -------------------------
  */
@@ -1053,7 +1053,7 @@ hr {
   padding-left: 10px;
   margin-bottom: 0;
 }
-/* 
+/*
  Sections Titles
  -------------------------
  */
@@ -1103,7 +1103,7 @@ hr {
 .section-title-small .section-title-heading:after {
   content: none;
 }
-/* 
+/*
  Emphasis & misc
  -------------------------
  */
@@ -1224,7 +1224,7 @@ small,
 .col-middle {
   vertical-align: middle;
 }
-/* 
+/*
  Sections Layout
  -------------------------
  */
@@ -1514,7 +1514,7 @@ small,
 }
 /*
   ========================================
-                Navbar 
+                Navbar
   ========================================
 */
 .navbar {
@@ -1738,7 +1738,7 @@ small,
   width: 100%;
   bottom: 0;
 }
-/* 
+/*
  Genaral Controls Modifications
  -------------------------
  */
@@ -1842,7 +1842,7 @@ small,
           transform: translateX(0) translateY(-50%);
   opacity: 1;
 }
-/* 
+/*
  Carosel indicators
  -------------------------
  */
@@ -1859,7 +1859,7 @@ small,
   width: 8px;
   height: 8px;
 }
-/* 
+/*
  Making Bootstrap carousel fade instead of sliding
  -------------------------
  */
@@ -1884,7 +1884,7 @@ small,
 .carousel-fade .carousel-control {
   z-index: 2;
 }
-/* 
+/*
  Falling Carousel Indicators Style
  -------------------------
  */
@@ -1951,7 +1951,7 @@ small,
 .dotstyle-fall div.active span {
   opacity: 0;
 }
-/* 
+/*
  Filling Carousel Indicators Style
  -------------------------
  */
@@ -2275,7 +2275,7 @@ small,
   width: 0;
   border-radius: 0 2px 2px 0;
 }
-/* 
+/*
     =========================
     Layout styles
     --------------
@@ -2548,7 +2548,7 @@ body {
 .home-bg {
   background-image: url(../img/backgrounds/home-background-01.jpg);
 }
-/* 
+/*
  Home section Owl slider Backgrounds
  -------------------------
  */
@@ -2630,7 +2630,7 @@ body {
     background-image: url("../img/backgrounds/home-background-03@lg2x.jpg");
   }
 }
-/* 
+/*
  Home section SlideShow Backgrounds
  -------------------------
  */
@@ -3341,6 +3341,7 @@ body {
 .client-testimonials {
   position: relative;
   overflow: hidden;
+  color: #000000;
 }
 .quote-icon {
   position: relative;
@@ -3350,32 +3351,27 @@ body {
   padding-bottom: 44px;
 }
 .client-testimonials-bg {
-  background-image: url(../img/backgrounds/testimonials-background.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #ffffff;
 }
 .retina-support .client-testimonials-bg {
-  background-image: url('../img/backgrounds/testimonials-background.jpg');
 }
 @media only screen and (min-device-width: 320px) {
   .retina-support .client-testimonials-bg {
-    background-image: url('../img/backgrounds/testimonials-background.jpg');
   }
 }
 @media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2.4), (min--moz-device-pixel-ratio: 2.4), (-webkit-min-device-pixel-ratio: 2.4), (min-resolution: 2.4dppx) {
   .retina-support .client-testimonials-bg {
-    background-image: url("../img/backgrounds/testimonials-background@2x.jpg");
   }
 }
 @media only screen and (min-device-width: 1200px) {
   .retina-support .client-testimonials-bg {
-    background-image: url("../img/backgrounds/testimonials-background@lg.jpg");
   }
 }
 @media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
   .retina-support .client-testimonials-bg {
-    background-image: url("../img/backgrounds/testimonials-background@lg2x.jpg");
   }
 }
 .testimonials .animated {
@@ -3967,7 +3963,7 @@ body {
   line-height: 37px;
   font-size: 16px;
 }
-/* 
+/*
  Go Top Button
  -------------------------
  */
@@ -6535,7 +6531,7 @@ li.comment-item {
     padding-bottom: 100px;
   }
 }
-/*  
+/*
     Responsive styles
     --------------
     Contents
@@ -6779,7 +6775,7 @@ min-width: 768px
     -webkit-transform: translate3d(0, -100%, 0);
             transform: translate3d(0, -100%, 0);
   }
-  /* 
+  /*
  Falling Carousel Indicators Style
  -------------------------
  */
@@ -6819,7 +6815,7 @@ min-width: 768px
     -webkit-transform: translate3d(0, 200%, 0);
             transform: translate3d(0, 200%, 0);
   }
-  /* 
+  /*
  Filling Carousel Indicators Style
  -------------------------
  */
