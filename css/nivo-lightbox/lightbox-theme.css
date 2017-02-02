@@ -8,8 +8,9 @@
  */
 
 .nivo-lightbox-theme-default.nivo-lightbox-overlay {
-    background: #666;
-    background: rgba(0, 0, 0, 0.6);
+    background: #fff;
+    background: #fff;
+}
 }
 /*.nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading { background: url(loading.gif) no-repeat 50% 50%; }*/
 @keyframes nivoload {
